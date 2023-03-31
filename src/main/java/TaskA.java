@@ -9,7 +9,7 @@ public class TaskA {
         double[] salaries = new double[numEmployees];
 
         for (int i = 0; i < numEmployees; i++) {
-            System.out.print("Enter the salary of employee #" + (i + 1) + ": ");
+            System.out.print("iscilerin maasi : " + (i + 1) );
             salaries[i] = input.nextDouble();
         }
 
@@ -22,6 +22,6 @@ public class TaskA {
             }
         }
 
-        System.out.println( "the highest salary is : " + maxSalary);
+        System.out.println( "en cox maash : " + maxSalary);
     }
 }
