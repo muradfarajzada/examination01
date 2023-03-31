@@ -9,7 +9,7 @@ public class TaskA {
         double[] salaries = new double[numEmployees];
 
         for (int i = 0; i < numEmployees; i++) {
-            System.out.print("iscilerin maasi : " + (i + 1) );
+            System.out.print("iscilerin maasi : " + (i + 1)+ " " );
             salaries[i] = input.nextDouble();
         }
 

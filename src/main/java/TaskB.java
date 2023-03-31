@@ -11,12 +11,12 @@ public class TaskB {
             arr[i] = input.nextInt();
         }
 
-        int count = 0;
+        int counter = 0;
         for (int i = 1; i < n - 1; i++) {
             if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
-                count++;
+                counter++;
             }
         }
-        System.out.println("Qonnsunundan boyuk olan elementlerin sayi : " + count);
+        System.out.println("Qonnsunundan boyuk olan elementlerin sayi : " + counter);
     }
 }
